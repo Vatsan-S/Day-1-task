@@ -3,7 +3,7 @@ What are objects?
 
 Objects are an advanced data type, where you can store complex data structures in a structured way.
 
-Example of how a datatype looks.
+Example of how a datatype looks..
 
 We can create an empty object by the following syntax.
 var objectName = new Object();
