@@ -1,0 +1,23 @@
+What is HTTP?
+It is one of the pillar inTim Berners-Lee's world wide web, among four. It is a standardised protocol, built to transfer data between networked devices.
+
+Versions of HTTP:
+
+1.HTTP/0.9 - The one line protocol
+2.HTTP/1.0
+3.HTTP/1.1 - The standardized protocol
+4.HTTP/2(After google's SPDY)
+
+
+HTTP/1.1
+
+A more standardized protocol which is parellely created while version 1.0 was in use. Major updates were, reusable connections(Keep-alive), pipelining - which parellely allows second request before the response of the previous request reducing the latency, and cross origin resource sharing and more.
+
+HTTP/2.0
+
+after 15 years of successfull running, HTTP/1.1 was succeeded by HTTP/2.o introduced for greater performance.
+
+Major difference between these two are:
+
+1. Even 6 TCP connections are not enough in mordern times, so it introduces stream method, where requests are created as multiple streams, which is easier.
+2. Headers cannot be compressed in HTTP1.1, but 2.o solved it by seperating header data and request data.

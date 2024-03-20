@@ -1,0 +1,55 @@
+
+What are objects?
+
+Objects are an advanced data type, where you can store complex data structures in a structured way.
+
+Example of how a datatype looks.
+
+We can create an empty object by the following syntax.
+var objectName = new Object();
+
+Values in an object is stored as Key - Value pairs. Where key is called properties or methods. In simple terms properties are the values associated with the object.
+
+Examples 
+
+myBike.make = 'Enfield';
+(Here myCar is the object name, make is the property and suzuki is the value)
+
+myBike.model = 'Classic350';
+
+myBike.year = 2016;
+
+myBike.bhp =20.2;
+
+
+To access the object and its properties, we can use the following syntax.
+
+myBike.year
+
+Output: 2016
+
+Another way of accessing the data is by bracket notations
+
+myBike[year]
+
+Output: 2016
+
+Most important factor is- object and properties are case sensitive.
+
+We use the following syntax to create or append a property inside an object
+ObjectName.ObjectProperty = propertyValue;
+
+Different ways of creating an object are
+
+Syntax 1:
+let bike = {name: 'Diavel', maker:'Ducati', engine:'1262'};
+
+Syntax 2:(With constructor)
+function Vehicle(name, maker) {
+   this.name = name;
+   this.maker = maker;
+}
+let car1 = new Vehicle(’Fiesta’, 'Ford’);
+let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+console.log(car1.name);    
+console.log(car2.name);   
